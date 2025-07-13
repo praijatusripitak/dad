@@ -4,10 +4,6 @@ html {
   height: 100%;
   margin: 0;
   overflow: hidden; /* ป้องกันการเกิด scrollbar */
-  background-image: url("Main.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: #000; /* สีพื้นหลังหากรูปโหลดไม่ทัน */
 }
 
@@ -40,6 +36,9 @@ html {
   height: 100%;
   backface-visibility: hidden; /* ซ่อนด้านหลังของ element ขณะที่มันหมุนไป */
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ทำให้รูปภาพเต็มพื้นที่ของ card__face */
