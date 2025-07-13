@@ -4,6 +4,10 @@ html {
   height: 100%;
   margin: 0;
   overflow: hidden; /* ป้องกันการเกิด scrollbar */
+  background-image: url("../Main.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #000; /* สีพื้นหลังหากรูปโหลดไม่ทัน */
 }
 
